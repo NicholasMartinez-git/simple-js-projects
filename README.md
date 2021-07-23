@@ -1,6 +1,6 @@
 # simple-js-projects
 
-A repo for practicing simple JavaScript projects to re-enforce the fundamentals.
+A repo for practicing simple JavaScript projects to reinforce the fundamentals.
 The projects below will be the ones I'm attempting...
 
 Vanilla JavaScript Projects:
