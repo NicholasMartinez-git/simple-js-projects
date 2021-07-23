@@ -6,7 +6,6 @@ The projects below will be the ones I'm attempting...
 Vanilla JavaScript Projects:
 
 How to create a Color Flipper
-
 How to create a counter
 How to create a review carousel
 How to create a responsive navbar
