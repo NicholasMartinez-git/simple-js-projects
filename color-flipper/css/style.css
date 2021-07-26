@@ -10,6 +10,8 @@ body {
     height: 100vh;
 }
 
+/********************* Start: Navbar *********************/
+
 .navbar {
     background-color: lightblue;
     padding: .5rem;
@@ -56,6 +58,10 @@ body {
     text-decoration: none;
     color: black;
 }
+/********************* End: Navbar *********************/
+
+
+/********************* Start: Main *********************/
 
 .main {
     height: 100%;
@@ -94,3 +100,4 @@ body {
     background-color: black;
     color: white;
 }
+/********************* End: Main *********************/

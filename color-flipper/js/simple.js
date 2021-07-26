@@ -161,9 +161,10 @@
     function simpleBackgroundColor() {
         let btn = document.getElementById('btn');
         btn.addEventListener('click', function () {
-            console.log(randomSimpleColor());
             let main = document.querySelector('.main');
+            let color = document.getElementById('color');
             main.style.backgroundColor = randomSimpleColor();
+            color.innerHTML = main.style.backgroundColor;
         });
     }
 
