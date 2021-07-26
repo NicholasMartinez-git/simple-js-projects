@@ -158,14 +158,14 @@
         return CSS_COLOR_NAMES[randomSimpleColorIndex];
     }
 
-    function backgroundColor() {
+    function simpleBackgroundColor() {
         let btn = document.getElementById('btn');
         btn.addEventListener('click', function () {
             console.log(randomSimpleColor());
             let main = document.querySelector('.main');
             main.style.backgroundColor = randomSimpleColor();
-        })
+        });
     }
 
-    backgroundColor();
+    simpleBackgroundColor();
 })();
