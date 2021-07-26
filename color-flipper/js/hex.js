@@ -18,9 +18,11 @@
 
         let btn = document.getElementById('btn');
         btn.addEventListener('click', function () {
-            console.log(randomHexColor());
+            let hexString = randomHexColor();
             let main = document.querySelector('.main');
-            main.style.backgroundColor = randomHexColor();
+            let color = document.getElementById('color');
+            main.style.backgroundColor = hexString;
+            color.innerHTML = hexString;
         });
     }
 
