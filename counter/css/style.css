@@ -55,3 +55,28 @@ main {
 .btn:hover {
     border-color: #2F75D3;
 }
+
+@media screen and (min-width:992px) {
+    body {
+        max-width: 900px;
+    }
+
+    .title-name {
+        font-size: 108px;
+    }
+
+    .counter {
+        font-size: 144px;
+    }
+
+    .counter-buttons {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .btn {
+        flex-grow: 1;
+        margin: 0 10px;
+        font-size: 20px;
+    }
+}
