@@ -101,3 +101,14 @@ body {
     color: white;
 }
 /********************* End: Main *********************/
+
+@media screen and (max-width:576px) {
+
+    .main-content .color-identifier {
+        width: 90%;
+    }
+    
+    .main-content .color-identifier h4 {
+        font-size: 22px;
+    }
+}
