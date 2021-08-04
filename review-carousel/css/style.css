@@ -1,1 +1,11 @@
-/* CSS GOES HERE */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.user-image #image {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
