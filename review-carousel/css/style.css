@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-.user-image #image {
+#user-image {
     height: 100px;
     width: 100px;
     object-fit: cover;
