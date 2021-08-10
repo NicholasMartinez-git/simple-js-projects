@@ -4,6 +4,23 @@
     padding: 0;
 }
 
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-name {
+    font-size: 36px;
+}
+
+.title-underline {
+    background-color: #49A6EA;
+    width: 20%;
+    padding: 2px;
+}
+
 #user-image {
     height: 100px;
     width: 100px;
