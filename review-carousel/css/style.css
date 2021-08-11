@@ -6,13 +6,28 @@
 
 body {
     background-color: #F1F5F8;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-content {
     background: #FFF;
-    margin: 1em 1em;
+    margin: 1em 1em 1em;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    min-height: calc(100vh - 32px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .title {
@@ -30,7 +45,7 @@ body {
 .title-underline {
     background-color: #49A6EA;
     width: 50px;
-    padding: 2px;
+    padding: 1.5px;
 }
 
 .user {
@@ -38,6 +53,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 1em;
 }
 
 .user-image-container {
@@ -125,14 +141,7 @@ body {
 
 @media screen and (min-width:375px) {
     .main-content {
-        min-height: 50%;
-        width: 90%;
         max-width: 1024px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin: 0;
-        transform: translate(-50%, -50%)
     }
 
     #user-image {
@@ -147,16 +156,6 @@ body {
 }
 
 @media screen and (min-width:480px) {
-    .main-content {
-        min-height: 50%;
-        width: 90%;
-        max-width: 1024px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin: 0;
-        transform: translate(-50%, -50%)
-    }
 
     .title-name {
         font-size: 64px;
@@ -171,6 +170,10 @@ body {
         width: 50px;
         left: 2%;
         top: 15%;
+    }
+
+    .user {
+        margin-top: 2em;
     }
 
     #user-image {
