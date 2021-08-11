@@ -20,7 +20,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1em;
+    padding: 1.5em;
 }
 
 .title-name {
@@ -102,4 +102,71 @@ body {
     border-radius: 10px;
     border-color: #49A6EA;
     color: #49A6EA;
+}
+
+@media screen and (min-width:375px) {
+    .main-content {
+        min-height: 50%;
+        width: 90%;
+        max-width: 1024px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: 0;
+        transform: translate(-50%, -50%)
+    }
+
+    #user-image {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .main-content {
+        min-height: 50%;
+        width: 90%;
+        max-width: 1024px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: 0;
+        transform: translate(-50%, -50%)
+    }
+
+    .title-name {
+        font-size: 64px;
+    }
+
+    .title-underline {
+        width: 100px;
+    }
+
+    #user-image {
+        height: 200px;
+        width: 200px;
+    }
+
+    #user-name {
+        font-size: 32px;
+    }
+    
+    #user-occupation {
+        font-size: 24px;
+    }
+    
+    #user-review {
+        font-size: 32px;
+    }
+
+    .arrow-buttons > button {
+        font-size: 64px;
+    }
+
+    .random-btn {
+        font-size: 32px;
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+    }
 }
